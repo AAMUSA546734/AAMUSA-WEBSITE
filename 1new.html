@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AA MUSA COMMUNICATION CENTRE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product-gallery div {
+      text-align: center;
+    }
+    .product-gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AA MUSA COMMUNICATION CENTRE</h1>
+    <p>Your trusted source for Bluetooth devices, chargers, screen glass, POS services, and mobile data.</p>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-gallery">
+      <div>
+        <img src="images/bluetooth.jpg" alt="Bluetooth Device">
+        <p>🔊 Bluetooth Devices</p>
+      </div>
+      <div>
+        <img src="images/charger.jpg" alt="Phone Charger">
+        <p>🔌 Phone Chargers</p>
+      </div>
+      <div>
+        <img src="images/screen-glass.jpg" alt="Screen Glass">
+        <p>📱 Screen Glass Protectors</p>
+      </div>
+      <div>
+        <img src="images/pos.jpg" alt="POS Machine">
+        <p>💳 POS Machines</p>
+      </div>
+      <div>
+        <img src="images/data.jpg" alt="Mobile Data">
+        <p>📶 Mobile Data Packages</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We offer fast and reliable phone charging services for professionals who need power on the go.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>AA MUSA COMMUNICATION CENTRE is located in Wudil, Kano State, Nigeria. We are passionate about providing high-quality tech accessories and services to professionals who demand reliability and speed.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Wudil, Kano State</p>
+    <p>📞 Phone: +234 XXX XXX XXXX</p>
+    <p>📧 Email: aamusa@example.com</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/234XXXXXXXXXX" target="_blank">Chat with us</a></p>
+
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AA MUSA COMMUNICATION CENTRE. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
